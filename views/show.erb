@@ -1,0 +1,6 @@
+<h1>Individual Pizza Order</h1>
+<hr/>
+
+<p>Name: <%= @pizza.pretty_name() %></p>
+<p>Order: <%= @pizza.quantity() %> <%= @pizza.topping() %></p>
+<p>Total cost: $<%= @pizza.total() %></p>

@@ -1,0 +1,22 @@
+<form action="/pizza-orders" method="POST">
+  <label for="first-name-field">First name</label>
+  <input type="text" name="first_name" id="first-name-field">
+
+  <label for="last-name-field">Last name</label>
+  <input type="text" name="last_name" id="last-name-field">
+
+  <label for="quantity-field">Quantity</label>
+  <input type="number" name="quantity" id="quantity-field" min="1">
+
+  <label for="topping-select">Chose Your Topping</label>
+  <select name="topping" id="topping-select">
+    <option value="Donner Kabab Pizza">Donner Kabab Pizza</option>
+    <option value="Chicken Wing Pizza">Chicken Wing Pizza</option>
+    <option value="Meat Feast Pizza">Meat Feast Pizza</option>
+    <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+    <option value="Margherita Pizza">Margherita Pizza</option>
+    <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+  </select>
+
+  <input type="submit" value="Order Pizza">
+</form>
